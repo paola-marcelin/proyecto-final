@@ -1,0 +1,22 @@
+nav.navbar.navbar-toggleable-md.navbar.sticky-top.navbar-light.bg-faded
+  button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  a.navbar-brand(href='#')
+    img.d-inline-block.align-top(src="http://idesmac.org.mx/images/Logo_IDESMAC.png", width='80', height='80', alt='')
+  #navbarNavDropdown.collapse.navbar-collapse
+    ul.navbar-nav.pull-lg-right
+      li.nav-item.active
+        a.nav-link(href='#')
+          | Inicio
+          span.sr-only (current)
+      li.nav-item.active
+        a.nav-link(href='#') Quiénes Somos
+      li.nav-item.active
+        a.nav-link(href='#') Proyectos
+      li.nav-item.active.dropdown
+        a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          | Publicaciones
+        .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+          a.dropdown-item(href='#') Action
+          a.dropdown-item(href='#') Another action
+          a.dropdown-item(href='#') Something else here
